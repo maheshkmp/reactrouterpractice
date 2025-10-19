@@ -3,12 +3,14 @@ import "./App.css";
 import "./index.css";
 import HeaderContent from "./Components/HeaderContent/HeaderContent";
 import BodyContent from "./Components/BodyContent/BodyContent";
+import Home from "./Pages/Home";
 
 function App() {
   return (
     <>
       <HeaderContent />
-      <BodyContent>
+      <Home />
+      {/* <BodyContent>
         <h1>Home Page</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
@@ -16,7 +18,7 @@ function App() {
           exercitationem. In, id! Nihil sunt quisquam tenetur deserunt voluptas
           eligendi laborum fugit in. Deleniti!
         </p>
-      </BodyContent>
+      </BodyContent> */}
     </>
   );
 }
